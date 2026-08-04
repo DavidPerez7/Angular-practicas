@@ -10,10 +10,4 @@ import { CommonModule } from '@angular/common';
 })
 export class App {
   protected readonly title = signal('todoApp');
-  protected readonly information = "App de tareas simple en Angular";
-  protected readonly tasks = [
-    "1. Instalacion de angular CLI",
-    "2. Creacion de nuevo proyecto",
-    "3. Creacion de componentes"
-  ]
 }
